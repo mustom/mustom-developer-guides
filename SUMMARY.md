@@ -18,7 +18,7 @@
   * [Copy Source Code](installation/untitled/copy-source-code.md)
   * [Install Node Modules](installation/untitled/install-node-modules.md)
   * [Run Installer](installation/untitled/run-installer.md)
-  * [SSL/TLS](installation/untitled/ssl-tls.md)
+  * [SSL/TLS](installation/untitled/ssl.md)
 * [Installation Using Docker](installation/installation-using-docker.md)
 * [Braintree Integration](installation/braintree-integration.md)
 * [Considerations](installation/considerations.md)

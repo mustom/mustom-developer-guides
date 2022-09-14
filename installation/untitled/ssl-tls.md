@@ -33,7 +33,7 @@ If your cert format is different (e.g. pfx), above code should be changed like t
 
 In case you don't want to use SSL, you need to change .env file.
 
-Actually, you can set this configuration during installation process.
+_<mark style="color:red;">Actually, Installer have this configuration. So, you don't need to set it again, if you set this correctly while installation process.</mark>_
 
 1. Move to engine root folder, and open .env file.
 2. Change the value of USE\_TLS to false.

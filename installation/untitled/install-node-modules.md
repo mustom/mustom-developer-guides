@@ -24,14 +24,4 @@ root@localhost:/home# cd admin-panel
 root@localhost:/home/admin-panel# npm install
 ```
 
-5\. Back to root folder, and then move to engine folder
-
-```
-root@localhost:/home# cd engine
-```
-
-6\. Install node modules for engine
-
-```
-root@localhost:/home/engine# npm install
-```
+5\. Back to root folder, and then move to engine folde

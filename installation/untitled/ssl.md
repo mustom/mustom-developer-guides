@@ -1,49 +1,66 @@
-# SSL/TLS
+# SSL
 
-> You MUST use SSL/TLS for your store. It is mandatory for your business.
+> You MUST use SSL for your store. It is mandatory for your business. But, if you don't want to use SSL for some reason(e.g. test environment), you need to un-comment some lines.&#x20;
 
-1\. Copy/paste SSL/TLS certificate files to some place like '/engine/config/tls'.
+## Case 1. Use SSL
 
-2\. Navigate to '/engine/config/ and open 'TLS.json' file.
+1\. Copy/paste SSL certificate files to '/configuration/ssl'
 
-3\. Change TLS.json file like this.
-
-_<mark style="color:red;">Please note that the key name 'key', 'cert', 'ca' should not be changed. And the value is the path that your cert file is located.</mark>_
+2\. Change key, cert, ca file name in index.js
 
 ```
-{ 
-    "key": "/config/tls/yourstore.com_key.txt",
-    "cert": "/config/tls/yourstore_com.crt",
-    "ca": "/config/tls/yourstore_com.ca-bundle"
+...
+const https = require('https')
+const options = {
+    key: fs.readFileSync(__dirname + '/config/ssl/YOUR-SSL-KEY-FILE'),
+    cert: fs.readFileSync(__dirname + '/config/ssl/YOUR-SSL-CERT-FILE'),
+    ca: fs.readFileSync(__dirname + '/config/ssl/YOUR-SSL-CA-FILE')
 }
+https.createServer(options, app).listen(443)
+...
 ```
 
 If your cert format is different (e.g. pfx), above code should be changed like this.
 
 ```
-{
-    "pfx": "/config/ssl/YOUR-PFX-FILE",
-    "passphrase": "example"
+...
+const https = require('https')
+const options = {
+    pfx: fs.readFileSync(__dirname + '/config/ssl/YOUR-PFX-FILE'),
+    passphrase: 'example'
 }
-```
-
-
-
-## Case 2. Not Using SSL/TLS
-
-In case you don't want to use SSL, you need to change .env file.
-
-_<mark style="color:red;">Actually, Installer have this configuration. So, you don't need to set it again, if you set this correctly while installation process.</mark>_
-
-1. Move to engine root folder, and open .env file.
-2. Change the value of USE\_TLS to false.
-
-```
-...
-# ----------------------------------------------------------
-# USE TLS OR HTTP (true / false)
-# ----------------------------------------------------------
-USE_TLS=false
+https.createServer(options, app).listen(443)
 ...
 ```
 
+## Case 2. Not Use SSL
+
+In case you don't want to use SSL, comment below lines in index.js. (You only need line 2\~3, if you don't use SSL)
+
+```
+// Node Server Start - HTTP
+const http = require('http')
+http.createServer(app).listen(80)
+
+
+// Node Server Start - HTTPS
+// Comment below codes, if you don't use SSL
+// const https = require('https')
+// const options = {
+//     key: fs.readFileSync(__dirname + '/config/ssl/berrysix.com_key.txt'),
+//     cert: fs.readFileSync(__dirname + '/config/ssl/berrysix_com.crt'),
+//     ca: fs.readFileSync(__dirname + '/config/ssl/berrysix_com.ca-bundle')
+// }
+// https.createServer(options, app).listen(443)
+
+
+// Redirect HTTP to HTTPS
+// Comment below codes, if you don't use SSL
+// app.all('*', (req, res, next) => {
+//     if (req.secure) { 
+//         next()
+//     } else { 
+//         res.redirect('https://' + req.hostname + req.url)
+//     } 
+// })
+```

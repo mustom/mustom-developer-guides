@@ -15,7 +15,7 @@ root@localhost:/home/npm run installer
 #### 4. It is almost done. Build storefront, and admin panel.
 
 ```
-home/npm run storebuild
+root@localhost:home/npm run storebuild
 
 // alternatively you can move to 'storefront' folder, and run 'npm run build'
 ```

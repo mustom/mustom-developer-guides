@@ -30,7 +30,7 @@
 | 'special-price-exceed'        | Special price is higher than regular price                                      |
 | 'order-generate-fail'         | Failed to generate order from cart                                              |
 | 'customer-generate-fail'      | Failed to generate customer data                                                |
-| 'split-item-fail'             | Failed to split order item                                                      |
+| 'wrong-split-qty'             | Split item qty is equal or greater then item qty                                |
 | 'wish-item-exist'             | Same item is already added to wish list                                         |
 |                               |                                                                                 |
 | 'wrong-config'                | Configuration is not set, or wrong                                              |

@@ -32,7 +32,7 @@
 | 'customer-generate-fail'      | Failed to generate customer data                                                |
 | 'wrong-split-qty'             | Split item qty is equal or greater then item qty                                |
 | 'wish-item-exist'             | Same item is already added to wish list                                         |
-|                               |                                                                                 |
+| 'approve-qty-exceed'          | Approve qty is more than request qty                                            |
 | 'wrong-config'                | Configuration is not set, or wrong                                              |
 |                               |                                                                                 |
 |                               |                                                                                 |

@@ -28,9 +28,9 @@
 | 'activation-key-not-exist'    | Account activation key is not exist, or expired                                 |
 | 'reset-key-not-exist'         | Password reset is not exist, or expired                                         |
 | 'special-price-exceed'        | Special price is higher than regular price                                      |
-| 'order-generate-fail'         | Fail to generate order from cart                                                |
-| 'customer-generate-fail'      | Fail to generate customer data                                                  |
-|                               |                                                                                 |
+| 'order-generate-fail'         | Failed to generate order from cart                                              |
+| 'customer-generate-fail'      | Failed to generate customer data                                                |
+| 'split-item-fail'             | Failed to split order item                                                      |
 | 'wish-item-exist'             | Same item is already added to wish list                                         |
 |                               |                                                                                 |
 | 'wrong-config'                | Configuration is not set, or wrong                                              |

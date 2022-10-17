@@ -34,7 +34,7 @@
 | 'wish-item-exist'             | Same item is already added to wish list                                         |
 | 'approve-qty-exceed'          | Approve qty is more than request qty                                            |
 | 'wrong-config'                | Configuration is not set, or wrong                                              |
-|                               |                                                                                 |
+| 'wrong-refund-amount'         | Refund amount is wrong                                                          |
 |                               |                                                                                 |
 |                               |                                                                                 |
 | 'delete-not-allowed'          | Delete action is not allowed                                                    |

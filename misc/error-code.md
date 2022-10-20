@@ -36,8 +36,8 @@
 | 'approve-qty-exceed'          | Approve qty is more than request qty                                            |
 | 'wrong-config'                | Configuration is not set, or wrong                                              |
 | 'wrong-refund-amount'         | Refund amount is wrong                                                          |
-|                               |                                                                                 |
-|                               |                                                                                 |
+| 'update-state-fail'           | Failed to update state.                                                         |
+| 'update-status-fail'          | Failed to update status.                                                        |
 | 'delete-not-allowed'          | Delete action is not allowed                                                    |
 | 'account-not-found'           | User name, or email not found                                                   |
 | 'password-not-match'          | Password does not match                                                         |

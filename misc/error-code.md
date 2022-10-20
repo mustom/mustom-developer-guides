@@ -15,7 +15,8 @@
 | 'requestor-not-exist'         | Requestor info in request header is not exist.                                  |
 | 'too-many-failure'            | Too many failure. (e.g. Sign in)                                                |
 | 'not-allowed-for-guest'       | Action from guest is not allowed                                                |
-| 'item-not-cancelable'         | Item status, or qty, is not meet cancelable condition.                          |
+| 'cancel-not-available'        | Item status, or qty, is not meet cancelable condition.                          |
+| 'dispute-not-available'       | Item status, or qty, is not meet dispute condition.                             |
 | 'disabled-value'              | The status of a record(s) is disabled                                           |
 | 'no-stock'                    | Out of stock, or stock is not available                                         |
 | 'missing-field'               | Some of data field are missing                                                  |

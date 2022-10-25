@@ -43,7 +43,7 @@
 | 'password-not-match'          | Password does not match                                                         |
 | 'account-not-verified'        | Account does not verified                                                       |
 | 'account-not-active'          | Account is in inactive(dormant) state                                           |
-|                               |                                                                                 |
+| 'invalid-tax-rate'            | Tax rule or rate setting is something wrong                                     |
 |                               |                                                                                 |
 |                               |                                                                                 |
 |                               |                                                                                 |

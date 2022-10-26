@@ -44,7 +44,7 @@
 | 'account-not-verified'        | Account does not verified                                                       |
 | 'account-not-active'          | Account is in inactive(dormant) state                                           |
 | 'invalid-tax-rate'            | Tax rule or rate setting is something wrong                                     |
-|                               |                                                                                 |
+| 'not-enough-authority'        | Not enough authority to access                                                  |
 |                               |                                                                                 |
 |                               |                                                                                 |
 | 'product-option-not-selected' | Product option(s) is not selected                                               |

@@ -11,6 +11,9 @@
 
 ## Installation
 
+* [System Requirements](installation/system-requirements/README.md)
+  * [Tested Environment](installation/system-requirements/tested-environment.md)
+  * [Considerations](installation/system-requirements/considerations.md)
 * [Step by Step Guide](installation/untitled/README.md)
   * [Install Node.js & NPM](installation/untitled/install-node.js-and-npm.md)
   * [Install MariaDB](installation/untitled/install-mariadb.md)

@@ -22,7 +22,10 @@
   * [Install Node Modules](installation/untitled/install-node-modules.md)
   * [Run Installer](installation/untitled/run-installer.md)
   * [SSL/TLS](installation/untitled/ssl.md)
+  * [Page 1](installation/untitled/page-1.md)
 * [Installation Using Docker](installation/installation-using-docker.md)
+* [Initial Configuration](installation/initial-configuration.md)
+* [Local Development](installation/local-development.md)
 * [Braintree Integration](installation/braintree-integration.md)
 * [Considerations](installation/considerations.md)
 

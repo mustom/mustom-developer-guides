@@ -1,6 +1,6 @@
 # Braintree Integration
 
-> By default Braintree payment is installed both Commerce Engine and Storefront. But, before your store go-live, you need to set it live mode, not sandbox mode.
+> By default Braintree payment is installed both Commerce Engine and Storefront as a default app. Before your store go-live, you need to set it live mode, not sandbox mode.
 
 ## Step 1 : Get a Braintree Account
 

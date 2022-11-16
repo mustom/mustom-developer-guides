@@ -48,4 +48,4 @@
 |                               |                                                                                 |
 |                               |                                                                                 |
 | 'product-option-not-selected' | Product option(s) is not selected                                               |
-|                               |                                                                                 |
+| 'under-maintenance'           | System is under maintenance                                                     |

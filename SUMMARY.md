@@ -49,6 +49,9 @@
 ## Manage Store
 
 * [State & Status](manage-store/untitled.md)
+* [Execute Command](manage-store/execute-command.md)
+* [Admin Role & Permission](manage-store/admin-role-and-permission.md)
+* [Scheduled Job](manage-store/scheduled-job.md)
 * [Report](manage-store/report.md)
 
 ## Storefront Development
@@ -66,6 +69,7 @@
 * [Add Language](customize-store/add-language.md)
 * [Add Province](customize-store/add-province.md)
 * [Change Email Templates](customize-store/change-email-templates.md)
+* [Change PDF Invoice](customize-store/change-pdf-invoice.md)
 
 ## API
 

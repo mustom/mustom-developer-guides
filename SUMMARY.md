@@ -66,7 +66,7 @@
 
 ## Customize Store
 
-* [Add Language](customize-store/add-language.md)
+* [Add Admin Panel Languages](customize-store/add-admin-panel-languages.md)
 * [Add Province](customize-store/add-province.md)
 * [Change Email Templates](customize-store/change-email-templates.md)
 * [Change PDF Invoice](customize-store/change-pdf-invoice.md)

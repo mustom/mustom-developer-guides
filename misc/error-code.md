@@ -21,6 +21,7 @@
 | 'no-stock'                    | Out of stock, or stock is not available                                         |
 | 'missing-field'               | Some of data field are missing                                                  |
 | 'missing-required'            | Required data field is missing                                                  |
+| 'missing-data'                | Some data is missing, or null                                                   |
 | 'invalid-order-state'         | Invalid order state                                                             |
 | 'invalid-order-status'        | Invalid order status                                                            |
 | 'invalid-dispute-state'       | Invalid dispute state                                                           |

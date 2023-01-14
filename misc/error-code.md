@@ -46,7 +46,7 @@
 | 'account-not-active'          | Account is in inactive(dormant) state                                           |
 | 'invalid-tax-rate'            | Tax rule or rate setting is something wrong                                     |
 | 'not-enough-authority'        | Not enough authority to access                                                  |
-|                               |                                                                                 |
-|                               |                                                                                 |
+| 'write-file-fail'             | Failed to write file                                                            |
+| 'read-file-fail'              | Failed to read file                                                             |
 | 'product-option-not-selected' | Product option(s) is not selected                                               |
 | 'under-maintenance'           | System is under maintenance                                                     |

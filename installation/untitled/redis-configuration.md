@@ -15,5 +15,7 @@ You can set host or port by changing config.json file.&#x20;
 
 GeneralURL format is 'redis\[s]://\[\[username]\[:password]@]\[host]\[:port]\[/db-number]'&#x20;
 
-You can set addtional options like discrete parameters, UNIX sockets, and TLS. Please check this link for more information. [https://github.com/redis/node-redis/blob/HEAD/docs/client-configuration.md](https://github.com/redis/node-redis/blob/HEAD/docs/client-configuration.md)
+You can set addtional options like discrete parameters, UNIX sockets, and TLS. Please visit below link for more information.&#x20;
+
+[https://github.com/redis/node-redis/blob/HEAD/docs/client-configuration.md](https://github.com/redis/node-redis/blob/HEAD/docs/client-configuration.md)
 

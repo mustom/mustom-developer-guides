@@ -1,6 +1,6 @@
 # SSL/TLS
 
-> You MUST use SSL/TLS for your store. It is mandatory for your business.
+> You MUST use SSL/TLS for your live store. It is mandatory for your business.
 
 1\. Copy/paste SSL/TLS certificate files to some place like '/engine/config/tls'.
 

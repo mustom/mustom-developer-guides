@@ -2,6 +2,10 @@
 
 <mark style="color:red;">If you installed redis on your local environment on port 6379, you don't need to change configuration unless you need to set additional option.</mark>&#x20;
 
+
+
+#### Steps to Change Redis Configuration
+
 You can set host or port by changing config.json file.&#x20;
 
 1. Navigate and open '/engine/system/redis/config/config.json'

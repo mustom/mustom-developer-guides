@@ -15,6 +15,7 @@
   * [Tested Environment](installation/system-requirements/tested-environment.md)
   * [Considerations](installation/system-requirements/considerations.md)
 * [Step by Step Guide](installation/untitled/README.md)
+  * [Install Nginx](installation/untitled/install-nginx.md)
   * [Install Node.js & NPM](installation/untitled/install-node.js-and-npm.md)
   * [Install MariaDB](installation/untitled/install-mariadb.md)
   * [Install Redis](installation/untitled/install-redis.md)

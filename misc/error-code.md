@@ -49,5 +49,6 @@
 | 'not-enough-authority'        | Not enough authority to access                                                  |
 | 'write-file-fail'             | Failed to write file                                                            |
 | 'read-file-fail'              | Failed to read file                                                             |
+| 'upload-fail'                 | Failed to upload file(s)                                                        |
 | 'product-option-not-selected' | Product option(s) is not selected                                               |
 | 'under-maintenance'           | System is under maintenance                                                     |

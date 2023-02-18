@@ -50,5 +50,6 @@
 | 'write-file-fail'             | Failed to write file                                                            |
 | 'read-file-fail'              | Failed to read file                                                             |
 | 'upload-fail'                 | Failed to upload file(s)                                                        |
+| 'duplicated-task'             | Requested task is already exist                                                 |
 | 'product-option-not-selected' | Product option(s) is not selected                                               |
 | 'under-maintenance'           | System is under maintenance                                                     |

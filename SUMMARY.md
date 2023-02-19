@@ -19,6 +19,7 @@
   * [Install Node.js & NPM](installation/untitled/install-node.js-and-npm.md)
   * [Install MariaDB](installation/untitled/install-mariadb.md)
   * [Install Redis](installation/untitled/install-redis.md)
+  * [Install RabbitMQ](installation/untitled/install-rabbitmq.md)
   * [Install Elasticsearch](installation/untitled/page-1.md)
   * [Install PM2](installation/untitled/install-pm2.md)
   * [Copy Source Code](installation/untitled/copy-source-code.md)

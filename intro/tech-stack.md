@@ -4,9 +4,16 @@
 
 * Node.js
 * Express
-* MySQL / Sequelize
+* Nginx
+* MariaDB
+* Sequelize
+* Redis
+* RabbitMQ
+* Elasticsearch
 * Nodemailer
 * Winston
+* PDFKit
+* Axios
 
 ### Admin Panel
 

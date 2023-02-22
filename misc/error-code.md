@@ -9,6 +9,7 @@
 | 'suspect-error'               | Errors are not detected. But, error(s) may happened while processing a request. |
 | 'access-denied'               | Do not have permission to access.                                               |
 | 'url-not-exist'               | Request url is not exist.                                                       |
+| 'invalid-data'                | Data is invalid                                                                 |
 | 'service-not-available'       | Service is not available. (Service Registry)                                    |
 | 'token-not-exist'             | JWT token is not exist.                                                         |
 | 'invalid-token'               | Invalid JWT token.                                                              |

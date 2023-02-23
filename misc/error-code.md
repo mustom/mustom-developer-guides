@@ -10,6 +10,7 @@
 | 'access-denied'               | Do not have permission to access.                                               |
 | 'url-not-exist'               | Request url is not exist.                                                       |
 | 'invalid-data'                | Data is invalid                                                                 |
+| 'invalid-type'                | Data type is invalid                                                            |
 | 'service-not-available'       | Service is not available. (Service Registry)                                    |
 | 'token-not-exist'             | JWT token is not exist.                                                         |
 | 'invalid-token'               | Invalid JWT token.                                                              |

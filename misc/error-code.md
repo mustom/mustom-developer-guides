@@ -49,6 +49,7 @@
 | 'account-not-active'          | Account is in inactive(dormant) state                                           |
 | 'invalid-tax-rate'            | Tax rule or rate setting is something wrong                                     |
 | 'not-enough-authority'        | Not enough authority to access                                                  |
+| 'not-enough-resource'         | Not enough resource (CPU, Memory...)                                            |
 | 'write-file-fail'             | Failed to write file                                                            |
 | 'read-file-fail'              | Failed to read file                                                             |
 | 'upload-fail'                 | Failed to upload file(s)                                                        |

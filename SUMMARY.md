@@ -55,7 +55,9 @@
 * [State & Status](manage-store/untitled.md)
 * [Execute Command](manage-store/execute-command.md)
 * [Admin Role & Permission](manage-store/admin-role-and-permission.md)
-* [Scheduled Job](manage-store/scheduled-job.md)
+* [Scheduled Job](manage-store/scheduled-job/README.md)
+  * [Cron Tab](manage-store/scheduled-job/cron-tab.md)
+  * [Job Queue](manage-store/scheduled-job/job-queue.md)
 * [Report](manage-store/report.md)
 
 ## Storefront Development

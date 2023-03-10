@@ -1,14 +1,20 @@
-# Tech Stack
+# Operation Environment & Modules
+
+### Operating Environment
+
+* Nginx
+* MariaDB
+* Redis (with Redis JSON module)
+* RabbitMQ
+* Elasticsearch
 
 ### Commerce Engine
 
 * Node.js
 * Express
-* Nginx
-* MariaDB
 * Sequelize
 * Redis
-* RabbitMQ
+* Amqplib
 * Elasticsearch
 * Nodemailer
 * Winston
@@ -20,11 +26,4 @@
 * React
 * Axios
 * react-draft-wysiwyg / Draft.js
-* Plain CSS
-
-### Storefront
-
-* React
-* Axios
-* Plain CSS
 

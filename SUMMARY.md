@@ -7,7 +7,7 @@
 * [Introduction](intro/introduction.md)
 * [Structure](intro/structure.md)
 * [Feature List](intro/untitled.md)
-* [Tech Stack](intro/tech-stack.md)
+* [Operation Environment & Modules](intro/tech-stack.md)
 
 ## Installation
 

@@ -6,7 +6,7 @@ Written below is the environment that I tested.
 
 * Server : Ubuntu 21.10
 * Node.js : 16.14.0
-* NginX :&#x20;
+* Nginx :&#x20;
 * MariaDB : 10.5.15 for debian-linux-gnu (x86\_64) / InnoDB
 * Redis : 6.0.15
 * RabbitMQ : some ...

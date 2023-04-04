@@ -28,9 +28,7 @@
 | 'invalid-order-status'        | Invalid order status                                                            |
 | 'invalid-dispute-state'       | Invalid dispute state                                                           |
 | 'invalid-dispute-status'      | Invalid dispute status                                                          |
-| 'cart-key-not-exist'          | Cart key is not exist                                                           |
-| 'activation-key-not-exist'    | Account activation key is not exist, or expired                                 |
-| 'reset-key-not-exist'         | Password reset is not exist, or expired                                         |
+| 'key-not-exist'               |  Key not exist or expired (e.g. cartKey)                                        |
 | 'special-price-exceed'        | Special price is higher than regular price                                      |
 | 'order-generate-fail'         | Failed to generate order from cart                                              |
 | 'customer-generate-fail'      | Failed to generate customer data                                                |

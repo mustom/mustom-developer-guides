@@ -35,6 +35,7 @@
 | 'wrong-split-qty'             | Split item qty is equal or greater then item qty                                |
 | 'wish-item-exist'             | Same item is already added to wish list                                         |
 | 'approve-qty-exceed'          | Approve qty is more than request qty                                            |
+| 'unresolved-task-exist'       | Unresolved tasks are exist                                                      |
 | 'wrong-config'                | Configuration is not set, or wrong                                              |
 | 'missing-config'              | Configuration file is missing                                                   |
 | 'wrong-refund-amount'         | Refund amount is wrong                                                          |

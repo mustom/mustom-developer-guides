@@ -37,7 +37,7 @@
 | 'approve-qty-exceed'          | Approve qty is more than request qty                                            |
 | 'unresolved-task-exist'       | Unresolved tasks are exist                                                      |
 | 'wrong-config'                | Configuration is not set, or wrong                                              |
-| 'missing-config'              | Configuration file is missing                                                   |
+| 'missing-config'              | Configuration is missing                                                        |
 | 'wrong-refund-amount'         | Refund amount is wrong                                                          |
 | 'update-state-fail'           | Failed to update state.                                                         |
 | 'update-status-fail'          | Failed to update status.                                                        |

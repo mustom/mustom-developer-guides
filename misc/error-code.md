@@ -24,6 +24,13 @@
 | 'missing-field'               | Some of data field are missing                                                  |
 | 'missing-required'            | Required data field is missing                                                  |
 | 'missing-data'                | Some data is missing, or null                                                   |
+| 'missing-condition'           | Some condition is missing                                                       |
+| 'missing-criteria'            | Some criteria is missing                                                        |
+| 'missing-config'              | Configuration is missing                                                        |
+| 'wrong-data'                  | Some data is wrong                                                              |
+| 'wrong-condition'             | Some condition is wrong                                                         |
+| 'wrong-criteria'              | Some criteria is wrong                                                          |
+| 'wrong-config'                | Configuration is not set, or wrong                                              |
 | 'invalid-order-state'         | Invalid order state                                                             |
 | 'invalid-order-status'        | Invalid order status                                                            |
 | 'invalid-dispute-state'       | Invalid dispute state                                                           |
@@ -36,8 +43,6 @@
 | 'wish-item-exist'             | Same item is already added to wish list                                         |
 | 'approve-qty-exceed'          | Approve qty is more than request qty                                            |
 | 'unresolved-task-exist'       | Unresolved tasks are exist                                                      |
-| 'wrong-config'                | Configuration is not set, or wrong                                              |
-| 'missing-config'              | Configuration is missing                                                        |
 | 'wrong-refund-amount'         | Refund amount is wrong                                                          |
 | 'update-state-fail'           | Failed to update state.                                                         |
 | 'update-status-fail'          | Failed to update status.                                                        |

@@ -6,6 +6,8 @@
 | 'error'                       | General fail code                                                               |
 | 'no-record'                   | No data in the database                                                         |
 | 'duplicated-data'             | Record is duplicated                                                            |
+| 'duplicated-name'             | Name is duplicated                                                              |
+| 'duplicated-value'            | Value is duplicated                                                             |
 | 'suspect-error'               | Errors are not detected. But, error(s) may happened while processing a request. |
 | 'access-denied'               | Do not have permission to access.                                               |
 | 'url-not-exist'               | Request url is not exist.                                                       |
@@ -48,7 +50,7 @@
 | 'update-status-fail'          | Failed to update status.                                                        |
 | 'delete-not-allowed'          | Delete action is not allowed                                                    |
 | 'account-not-found'           | User name, or email not found                                                   |
-| 'password-not-match'          | Password does not match                                                         |
+| 'password-mismatch'           | Password does not match                                                         |
 | 'account-not-verified'        | Account does not verified                                                       |
 | 'account-not-active'          | Account is in inactive(dormant) state                                           |
 | 'invalid-tax-rate'            | Tax rule or rate setting is something wrong                                     |

@@ -1,19 +1,3 @@
 # Order
 
-| Method | End Point | Used By | Description |
-| ------ | --------- | ------- | ----------- |
-|        |           |         |             |
-|        |           |         |             |
-|        |           |         |             |
-|        |           |         |             |
-|        |           |         |             |
-|        |           |         |             |
-|        |           |         |             |
-|        |           |         |             |
-|        |           |         |             |
-|        |           |         |             |
-|        |           |         |             |
-|        |           |         |             |
-|        |           |         |             |
-|        |           |         |             |
-|        |           |         |             |
+<table><thead><tr><th width="150">Method</th><th>End Point</th><th>Used By</th><th>Description</th></tr></thead><tbody><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr></tbody></table>

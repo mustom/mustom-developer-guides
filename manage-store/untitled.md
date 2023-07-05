@@ -2,21 +2,7 @@
 
 ## State&#x20;
 
-| Category | State Code          | Description |
-| -------- | ------------------- | ----------- |
-| Order    | incomplete          |             |
-| Order    | pending             |             |
-| Order    | processing          |             |
-| Order    | complete            |             |
-| Order    | on\_hold            |             |
-| Order    | canceled            |             |
-| Dispute  | dispute\_review     |             |
-| Dispute  | return\_processing  |             |
-| Dispute  | return\_complete    |             |
-| Dispute  | replace\_processing |             |
-| Dispute  | replace\_complete   |             |
-| Dispute  | refunded            |             |
-| Dispute  | resolved            |             |
+<table><thead><tr><th width="205.6885928393006">Category</th><th width="200.33333333333331">State Code</th><th>Description</th></tr></thead><tbody><tr><td>Order</td><td>incomplete</td><td></td></tr><tr><td>Order</td><td>pending</td><td></td></tr><tr><td>Order</td><td>processing</td><td></td></tr><tr><td>Order</td><td>complete</td><td></td></tr><tr><td>Order</td><td>on_hold</td><td></td></tr><tr><td>Order</td><td>canceled</td><td></td></tr><tr><td>Dispute</td><td>dispute_review</td><td></td></tr><tr><td>Dispute</td><td>return_processing</td><td></td></tr><tr><td>Dispute</td><td>return_complete</td><td></td></tr><tr><td>Dispute</td><td>replace_processing</td><td></td></tr><tr><td>Dispute</td><td>replace_complete</td><td></td></tr><tr><td>Dispute</td><td>refunded</td><td></td></tr><tr><td>Dispute</td><td>resolved</td><td></td></tr></tbody></table>
 
 ## Default Order Status
 

@@ -88,7 +88,7 @@
   * [PM2 Configuration](misc/go-live-preparation/pm2-configuration.md)
 * [Trouble Shooting](misc/trouble-shooting.md)
 * [How to Contribute](misc/how-to-contribute.md)
-* [Error Code](misc/error-code.md)
+* [Error Codes](misc/error-codes.md)
 * [Coding Convention](misc/coding-convention.md)
 * [FAQs](misc/untitled.md)
 * [Change Log](misc/change-log.md)

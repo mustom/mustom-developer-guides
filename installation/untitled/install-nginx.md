@@ -1,6 +1,6 @@
 # Install Nginx
 
-Node.js can run ... without Nginx. But Mustom designed to run along with Nginx. The reason that Mustom use Nginx is written below.
+Node.js can run without Nginx. However, Mustom designed to run along with Nginx as a reverse proxy. (It is not recommended to run Mustom without NginX)
 
 
 
@@ -31,7 +31,9 @@ nginx version: nginx/1.18.0 (Ubuntu)
 
 
 
-Ubuntu should enable and start it automatically. You can confirm that the nginx service is up and running through the command below.
+At the end of the installation process, Ubuntu starts Nginx. You can confirm that the nginx service is up and running through the command below.
+
+(By default, Nginx is configured to start automatically when the server boots)
 
 ```
 sudo systemctl status nginx

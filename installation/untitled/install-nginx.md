@@ -31,7 +31,7 @@ nginx version: nginx/1.18.0 (Ubuntu)
 
 
 
-Ubuntu should enable and start it automatically. You can confirm that the nginx service is up and running through the command below:
+Ubuntu should enable and start it automatically. You can confirm that the nginx service is up and running through the command below.
 
 ```
 sudo systemctl status nginx
@@ -39,9 +39,9 @@ sudo systemctl status nginx
 
 
 
-You can now open your server's IP address in the browser to verify that everything is working. You should see the default NGINX landing page:
+Open your browser, and enter your server's IP address. Everything is OK, you will see the page below.
 
-<img src="../../.gitbook/assets/image.png" alt="" data-size="original">
+<figure><img src="../../.gitbook/assets/nginx.JPG" alt=""><figcaption></figcaption></figure>
 
 
 

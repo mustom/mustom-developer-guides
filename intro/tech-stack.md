@@ -2,11 +2,16 @@
 
 ### Operating Environment
 
+* Ubuntu 22.04.2 LTS (Jammy Jellyfish)
 * Nginx
 * MariaDB
 * Redis (with Redis JSON module)
 * RabbitMQ
 * Elasticsearch
+
+
+
+The environment above is just tested environment.
 
 ### Commerce Engine
 

@@ -7,7 +7,7 @@ Written below is the environment that I tested.
 * Server : Ubuntu 22.04.2 LTS (Jammy Jellyfish)
 * Node.js : 16.14.0
 * Nginx : 1.18.0
-* MariaDB : Ver 15.1 Distrib 10.6.12-MariaDB, for debian-linux-gnu (x86\_64)
+* MariaDB : 10.6.12
 * Redis : 6.0.15
 * RabbitMQ : some ...
 * Elasticsearch :&#x20;

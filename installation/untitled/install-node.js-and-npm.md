@@ -4,7 +4,7 @@
 
 
 
-1\. Run the following command to download and execute the NodeSource installation script.
+STEP 1. Run the following command to download and execute the NodeSource installation script.
 
 ```
 curl -sL https://deb.nodesource.com/setup_16.x | sudo -E bash -
@@ -12,13 +12,17 @@ curl -sL https://deb.nodesource.com/setup_16.x | sudo -E bash -
 // You can specify node version by changing 'setup_16.x'. (e.g. setup_17.x)
 ```
 
-2\. Install Node.js
+
+
+STEP 2. Install Node.js
 
 ```
 sudo apt install nodejs
 ```
 
-3\. Check Node.js version
+
+
+STEP 3. Check Node.js version
 
 ```
 node -v
@@ -26,7 +30,9 @@ node -v
 // OUTPUT : v16.14.0 or Higher
 ```
 
-4\. Check NPM version
+
+
+STEP 4. Check NPM version
 
 ```
 npm -v

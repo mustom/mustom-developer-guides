@@ -1,6 +1,6 @@
 # Copy Source Code
 
-### Download from GitHub
+## Download Mustom from GitHub
 
 Method 1 : Cloning a Repository Using Git
 
@@ -17,6 +17,6 @@ Method 2 : Download Zip
 
 
 
-### Download from mustom.com
+## Download Mustom from mustom.com
 
 Download page is under construction now.

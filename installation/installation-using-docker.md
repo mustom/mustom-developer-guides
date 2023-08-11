@@ -1,3 +1,5 @@
 # Installation Using Docker
 
-I'm planning to provide Docker image when Mustom become stable version.
+Sorry!&#x20;
+
+Docker image will be provided when Mustom become stable version.

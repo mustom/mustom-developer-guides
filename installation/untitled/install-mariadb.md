@@ -4,25 +4,31 @@
 
 
 
-1\. Update APT
+STEP 1. Update APT
 
 ```
 sudo apt update
 ```
 
-2\. Install MariaDB server using APT
+
+
+STEP 2. Install MariaDB server using APT
 
 ```
 sudo apt install mariadb-server
 ```
 
-3\. Run security script
+
+
+STEP 3. Run security script
 
 ```
 sudo mysql_secure_installation
 ```
 
-4\. Security script will take you through a series of prompts. Below is kind of general example. You can choose another option.
+
+
+STEP 4. Security script will take you through a series of prompts. Below is kind of general example. You can choose another option.
 
 ```
 ...
@@ -113,13 +119,17 @@ installation should now be secure.
 Thanks for using MariaDB!OK, successfully used password, moving on...
 ```
 
-5\. Access MariaDB
+
+
+STEP 5. Access MariaDB
 
 ```
 mysql -u root -p
 ```
 
-6\. Create Database (You can change mustom to what ever)
+
+
+STEP 6. Create Database (You can change mustom to whatever)
 
 ```
 MariaDB [(none)]> CREATE DATABASE mustom;

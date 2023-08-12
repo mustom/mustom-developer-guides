@@ -73,6 +73,49 @@ You need to have TLS
 
 ## General Configuration
 
+
+
+Step 1.&#x20;
+
+
+
+```
+cd /etc/nginx
+mkdir ssl
+```
+
+Step 2. Copy your cert files. on 'etc/nginx/ssl
+
+
+
+
+
+Step 1. Move to&#x20;
+
+```
+cd /etc/nginx/conf.d
+```
+
+
+
+Step 2. Download&#x20;
+
+```
+curl https://www.nginx.com/resource/conf/nodejs-basic.conf > nodejs-basic.conf
+```
+
+
+
+
+
+
+
+##
+
+
+
+
+
 Step 1. We will create a server block configuration file. Move to '/etc/nginx/sites-available/' folder
 
 ```

@@ -4,7 +4,7 @@
 
 
 
-STEP 1. Run the following command to download and execute the [NodeSource](https://github.com/nodesource/distributions#deb) installation script.
+Step 1. Run the following command to download and execute the [NodeSource](https://github.com/nodesource/distributions#deb) installation script.
 
 ```
 curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash - &&\
@@ -13,15 +13,7 @@ sudo apt-get install -y nodejs
 
 
 
-STEP 2. Install Node.js
-
-```
-sudo apt install nodejs
-```
-
-
-
-STEP 3. Check Node.js version
+Step 2. Check Node.js version
 
 ```
 node -v
@@ -31,7 +23,7 @@ node -v
 
 
 
-STEP 4. Check NPM version
+Step 3. Check NPM version
 
 ```
 npm -v

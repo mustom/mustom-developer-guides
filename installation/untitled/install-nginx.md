@@ -65,32 +65,32 @@ If you cannot install Nginx successfully using the method described above, try t
 
 
 
-## Configure TLS (SSL)
-
-You need to have TLS
+## Configuring Reverse Proxy and SSL/TLS Certificate
 
 
 
-## General Configuration
+{% hint style="info" %}
+Please check [official guide](https://docs.nginx.com/nginx/deployment-guides/load-balance-third-party/node-js/) for detailed instruction.
+{% endhint %}
 
 
 
-Step 1.&#x20;
-
-
+Step 1. Create folder 'ssl' for SSL/TLS cert files under '/etc/nginx',  if it is not exist
 
 ```
 cd /etc/nginx
 mkdir ssl
 ```
 
-Step 2. Copy your cert files. on 'etc/nginx/ssl
+
+
+Step 2. Copy your cert files on 'etc/nginx/ssl' folder
+
+<figure><img src="../../.gitbook/assets/ssl.JPG" alt=""><figcaption></figcaption></figure>
 
 
 
-
-
-Step 1. Move to&#x20;
+Step 3. Move to conf.d folder&#x20;
 
 ```
 cd /etc/nginx/conf.d
@@ -98,67 +98,84 @@ cd /etc/nginx/conf.d
 
 
 
-Step 2. Download&#x20;
+Step 4. Download basic configuration file, or enhanced configuration file.
 
 ```
+// Basic configuration
 curl https://www.nginx.com/resource/conf/nodejs-basic.conf > nodejs-basic.conf
+
+// Enhanced configuration
+curl https://www.nginx.com/resource/conf/nodejs-enhanced.conf > nodejs-enhanced.conf
 ```
 
 
 
-
-
-
-
-##
-
-
-
-
-
-Step 1. We will create a server block configuration file. Move to '/etc/nginx/sites-available/' folder
+Step 5. Edit configuration file
 
 ```
-cd /etc/nginx/sites-available/
-```
-
-
-
-Step 2. Generate a file with your actual domain name. (e.g. mustom.com)
-
-```
-nano your_domain
-```
-
-
-
-Step 3. Enter .. and save file
-
-```
-server {
-    server_name <your_domain>;
-
-    location / {
-        proxy_pass <http://localhost:3000>;
-    }
+...
+ 
+upstream nodejs {
+    # Use IP Hash for session persistence
+    ip_hash;
+ 
+    # List of Node.JS Application Servers
+    
+    // Node.js IP and ports here
+    server 139.162.70.64:3000;
+    server 139.162.70.64:3001;
 }
+ 
+	 
+server {
+    listen 80;
+    
+    // Your domain name here
+    server_name berrysix.com;
+
+    # Redirect all HTTP to HTTPS
+    location / {	
+		return 301 https://$server_name$request_uri;
+    } 
+}
+ 
+server {
+    listen 443 ssl http2;
+    // Your domain name here
+    server_name berrysix.com;
+
+    // Your SSL/TLS cert file location here
+    ssl_certificate     /etc/nginx/ssl/berrysix.com.crt;
+    ssl_certificate_key  /etc/nginx/ssl/berrysix.com_key.txt;
+    ssl_session_cache	shared:SSL:1m;
+    ssl_prefer_server_ciphers  on;
+ 
+ ...
 ```
 
 
 
-Step 4. Back to your terminal and create a symbolic link of this your\_domain file in the '/etc/nginx/sites-enabled' folder
+Step 6. Test configuration file
 
 ```
-sudo ln -s /etc/nginx/sites-available/your_domain /etc/nginx/sites-enabled/your_domain
+nginx -t
+
+// OUTPUT
+nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+nginx: configuration file /etc/nginx/nginx.conf test is successful
 ```
 
 
 
-Step 5. Reload NginX configuration
+Step 7. Reload updated configuration
 
 ```
-sudo nginx -s reload
+nginx -s reload
 ```
+
+
+
+
 
 
 

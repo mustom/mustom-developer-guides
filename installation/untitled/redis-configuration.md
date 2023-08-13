@@ -1,8 +1,8 @@
 # Redis Configuration
 
-<mark style="color:red;">If you installed redis on your local environment on port 6379, you don't need to change configuration unless you need to set additional option.</mark>&#x20;
-
-
+{% hint style="info" %}
+If you installed redis on your local environment on port 6379, you don't need to change configuration unless you need to set additional option.
+{% endhint %}
 
 #### Steps to Change Redis Configuration
 

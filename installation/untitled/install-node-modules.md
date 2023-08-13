@@ -1,36 +1,46 @@
 # Install Node Modules
 
-1\. Move to storefront folder
+Step 1. Move to storefront folder
 
 ```
-root@localhost:/home# cd storefront
+cd /opt/mustom/storefront
 ```
 
-2\. Install node modules for storefront
+
+
+Step 2. Install node modules for storefront
 
 ```
-root@localhost:/home/storefront# npm install
+npm install
 ```
 
-3\. Back to root folder, and then move to admin panel folder
+
+
+Step 3. Move to admin panel folder
 
 ```
-root@localhost:/home# cd admin-panel
+cd /opt/mustom/admin-panel
 ```
 
-4\. Install node modules for admin panel
+
+
+Step 4. Install node modules for admin panel
 
 ```
-root@localhost:/home/admin-panel# npm install
+npm install
 ```
 
-5\. Back to root folder, and then move to engine folder
+
+
+Step 5. move to engine folder
 
 ```
-root@localhost:/home# cd engine
+cd /opt/mustom/engine
 ```
 
-6\. Install node modules for engine
+
+
+Step 6. Install node modules for engine
 
 ```
 root@localhost:/home/engine# npm install

@@ -1,5 +1,11 @@
 # Copy Source Code
 
+##
+
+{% hint style="info" %}
+In this developer guide, Mustom project is located under '/opt/mustom' folder.
+{% endhint %}
+
 ## Download Mustom from GitHub
 
 Method 1 : Cloning a Repository Using Git

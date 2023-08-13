@@ -37,6 +37,14 @@ redis-cli --version
 
 
 
+Step 4. Check status
+
+```
+sudo systemctl status redis
+```
+
+
+
 ## Install Redis Stack
 
 {% hint style="info" %}
@@ -56,8 +64,4 @@ sudo apt-get update
 
 sudo apt-get install redis-stack-server
 ```
-
-
-
-## Install Redisearch module
 

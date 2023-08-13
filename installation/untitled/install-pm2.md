@@ -6,10 +6,10 @@
 
 
 
-You should install PM2 as global ??
+Step. Install PM2 using NPM
 
 ```
-npm i pm2
+npm install pm2 -g
 ```
 
 

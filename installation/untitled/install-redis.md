@@ -10,7 +10,7 @@
 
 
 
-STEP 1 . Update APT
+Step 1 . Update APT
 
 ```
 sudo apt update
@@ -18,7 +18,7 @@ sudo apt update
 
 
 
-STEP 2. Install Redis
+Step 2. Install Redis
 
 ```
 sudo apt install redis-server
@@ -26,12 +26,36 @@ sudo apt install redis-server
 
 
 
+Step 3. Check Redis version
+
+```
+redis-cli --version
+
+// OUTPUT : 
+// redis-cli 6.0.16
+```
 
 
-## Install RedisJSON module
 
-3. Install RedisJSON module
-4. Install Redisearch module
+## Install Redis Stack
+
+{% hint style="info" %}
+You need to install Redis stack, because Mustom use it's feature 'RedisJSON' and 'Redisearch'. Please visit [official website](https://redis.io/docs/getting-started/install-stack/linux/) for detailed installation guide.
+{% endhint %}
+
+Add official packages.redis.io APT repository to the apt index, update it, and install it
+
+```
+curl -fsSL https://packages.redis.io/gpg | sudo gpg --dearmor -o /usr/share/keyrings/redis-archive-keyring.gpg
+
+sudo chmod 644 /usr/share/keyrings/redis-archive-keyring.gpg
+
+echo "deb [signed-by=/usr/share/keyrings/redis-archive-keyring.gpg] https://packages.redis.io/deb $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/redis.list
+
+sudo apt-get update
+
+sudo apt-get install redis-stack-server
+```
 
 
 

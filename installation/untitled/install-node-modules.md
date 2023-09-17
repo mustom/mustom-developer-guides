@@ -32,7 +32,7 @@ npm install
 
 
 
-Step 5. move to engine folder
+Step 5. Move to engine folder
 
 ```
 cd /opt/mustom/engine
@@ -45,3 +45,8 @@ Step 6. Install node modules for engine
 ```
 root@localhost:/home/engine# npm install
 ```
+
+
+
+
+

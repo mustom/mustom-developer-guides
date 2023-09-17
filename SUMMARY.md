@@ -21,7 +21,7 @@
   * [Install Node Modules](installation/untitled/install-node-modules.md)
   * [Install Nginx](installation/untitled/install-nginx.md)
   * [Install MariaDB](installation/untitled/install-mariadb.md)
-  * [Install Redis](installation/untitled/install-redis.md)
+  * [Install Redis Stack](installation/untitled/install-redis-stack.md)
   * [Install RabbitMQ](installation/untitled/install-rabbitmq.md)
   * [Install Elasticsearch](installation/untitled/page-1.md)
   * [Install PM2](installation/untitled/install-pm2.md)

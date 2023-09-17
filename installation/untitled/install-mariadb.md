@@ -129,7 +129,7 @@ mysql -u root -p
 
 
 
-STEP 6. Create Database (You can change mustom to whatever)
+STEP 6. Create Database (You can change 'mustom' to whatever)
 
 ```
 MariaDB [(none)]> CREATE DATABASE mustom;

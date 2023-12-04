@@ -87,6 +87,7 @@
 
 * [Go Live Preparation](misc/go-live-preparation/README.md)
   * [PM2 Configuration](misc/go-live-preparation/pm2-configuration.md)
+  * [Use CDN](misc/go-live-preparation/use-cdn.md)
 * [Trouble Shooting](misc/trouble-shooting.md)
 * [How to Contribute](misc/how-to-contribute.md)
 * [Error Codes](misc/error-codes.md)

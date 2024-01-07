@@ -23,10 +23,10 @@
   * [Install MariaDB](installation/untitled/install-mariadb.md)
   * [Install Redis Stack](installation/untitled/install-redis-stack.md)
   * [Install RabbitMQ](installation/untitled/install-rabbitmq.md)
-  * [Install Elasticsearch](installation/untitled/page-1.md)
+  * [Install Elasticsearch](installation/untitled/install-elasticsearch.md)
   * [Install PM2](installation/untitled/install-pm2.md)
   * [Run Installer](installation/untitled/run-installer.md)
-  * [SSL/TLS](installation/untitled/ssl.md)
+  * [SSL/TLS](installation/untitled/ssl-tls.md)
   * [Redis Configuration](installation/untitled/redis-configuration.md)
 * [Installation Using Docker](installation/installation-using-docker.md)
 * [Initial Configuration](installation/initial-configuration/README.md)
@@ -73,7 +73,7 @@
 
 ## Customize Store
 
-* [Add Admin Panel Languages](customize-store/add-language.md)
+* [Add Admin Panel Languages](customize-store/add-admin-panel-languages.md)
 * [Add Province](customize-store/add-province.md)
 * [Change Email Templates](customize-store/change-email-templates.md)
 * [Change PDF Invoice](customize-store/change-pdf-invoice.md)

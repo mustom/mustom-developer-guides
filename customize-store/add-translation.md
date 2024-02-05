@@ -1,8 +1,8 @@
-# Add Admin Panel Languages
+# Add Translation
 
-> Currently, Mustom Admin Panel support English, Korean, Chinese(Simplified), and Japanese. But, you can easily add any languages you want.
+> Currently, Mustom support English, Korean, Chinese(Simplified), and Japanese. But, you can easily add any languages you want.
 
-## Steps to add new language
+## Part 1. Add new language for admin panel
 
 #### 1 . Navigate admin-panel/src/config/language.json, and open this file using text editor.
 
@@ -21,11 +21,15 @@
 ]
 ```
 
-<mark style="color:red;">Please note that the value 'code' and 'path' are combination of ISO-3166 Country Codes (Upper case) and ISO-639 Language Codes (Lower case)</mark>
+
+
+{% hint style="info" %}
+Please note that the value 'code' and 'path' are combination of ISO-3166 Country Codes (Upper case) and ISO-639 Language
+{% endhint %}
 
 #### 3 .  Create new folder under 'admin-panel/public/locales/{new foler}'
 
-<mark style="color:red;">Please note that the folder name should be same as the value of 'path' that you added on language.json. (e.g. es-ES)</mark>
+The folder name should be same as the value of 'path' that you added on language.json. (e.g. es-ES)
 
 #### 4 . Copy all files under 'admin-panel/public/locales/en-US', and then paste it into new folder.
 
@@ -61,3 +65,9 @@
 ```
 
 #### 6 . You are all done! (You can share your translation to help others. Please PR!)
+
+
+
+## Part2. Add new language for engine
+
+When it compared with admin panel, the translation for engine are not much. Only a few terms like status name, and email templates can be translate.

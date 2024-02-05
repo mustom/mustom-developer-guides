@@ -58,7 +58,7 @@
 * [Admin Role & Permission](manage-store/admin-role-and-permission.md)
 * [Scheduled Job](manage-store/scheduled-job/README.md)
   * [Cron Tab](manage-store/scheduled-job/cron-tab.md)
-  * [Job Queue](manage-store/scheduled-job/job-queue.md)
+  * [Queues](manage-store/scheduled-job/queues.md)
 * [Report](manage-store/report.md)
 
 ## Storefront Development
@@ -73,10 +73,11 @@
 
 ## Customize Store
 
-* [Add Admin Panel Languages](customize-store/add-admin-panel-languages.md)
+* [Add Translation](customize-store/add-translation.md)
 * [Add Province](customize-store/add-province.md)
 * [Change Email Templates](customize-store/change-email-templates.md)
 * [Change PDF Invoice](customize-store/change-pdf-invoice.md)
+* [Change PDF Creditmemo](customize-store/change-pdf-creditmemo.md)
 
 ## API
 
@@ -86,8 +87,9 @@
 ## Misc
 
 * [Go Live Preparation](misc/go-live-preparation/README.md)
+  * [Using multiple instance](misc/go-live-preparation/using-multiple-instance.md)
   * [PM2 Configuration](misc/go-live-preparation/pm2-configuration.md)
-  * [Use CDN](misc/go-live-preparation/use-cdn.md)
+  * [Content Delivery Network](misc/go-live-preparation/content-delivery-network.md)
 * [Trouble Shooting](misc/trouble-shooting.md)
 * [How to Contribute](misc/how-to-contribute.md)
 * [Error Codes](misc/error-codes.md)

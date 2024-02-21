@@ -14,7 +14,7 @@ There are three kind of task queues.&#x20;
 
 #### Express Queue
 
-It will handle ordinary tasks like. Mustom use topic based exchange for this queue.
+This queue will handle ordinary tasks like leaving a admin action logs. Mustom use topic based exchange for this queue. (You can save task result in database by passing a arguement)
 
 #### Email Queue
 

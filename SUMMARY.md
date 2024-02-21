@@ -57,7 +57,7 @@
 * [Execute Command](manage-store/execute-command.md)
 * [Admin Role & Permission](manage-store/admin-role-and-permission.md)
 * [Scheduled Job](manage-store/scheduled-job/README.md)
-  * [Cron Tab](manage-store/scheduled-job/cron-tab.md)
+  * [Cron](manage-store/scheduled-job/cron.md)
   * [Queues](manage-store/scheduled-job/queues.md)
 * [Report](manage-store/report.md)
 

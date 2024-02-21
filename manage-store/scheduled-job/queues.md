@@ -14,15 +14,15 @@ There are three kind of task queues.&#x20;
 
 #### Express Queue
 
-This queue will handle ordinary tasks like leaving a admin action logs. Mustom use topic based exchange for this queue. (You can save task result in database by passing a arguement)
+This queue will handle ordinary tasks like admin action logs. Mustom use topic based exchange for this queue. (You can save task result in database in case certain tasks are important. It is optional.)
 
 #### Email Queue
 
-It will handle email delivery. Mustom use worker queue for this queue.
+Used for email delivery, mainly transaction emails. Mustom use worker queue for this queue.
 
 #### Heavy Load Queue
 
-This queue is a little bit unique. The difference between ordinary tasks and high latency tasks are resouce checking process. System will check CPU availablity and Memory availability before executing high latency tasks. If resources are not enough to execute high latency tasks, it will not executed, and will executed later when resouces are become available. You can check the status and result of high latency task through a database table 'm\_core\_high\_latency\_task\_queue'.
+This queue is a little bit unique task queue for heavy load tasks. It has resouce checking process. System will check CPU availablity and Memory availability before executing heavy load tasks. If resources are not enough to execute high latency tasks, it will not executed, and will executed later when resouces are become available. You can check the status and result of high latency task through a database table 'm\_core\_high\_latency\_task\_queue'.
 
 
 

@@ -10,4 +10,10 @@ Go ....
 If you don't want to go-live, you can test it through sandbox. In this case, please visit Braintree developer site ([https://developers.braintreepayments.com/](https://developers.braintreepayments.com/)) to create sandbox account.
 {% endhint %}
 
-##
+
+
+
+
+## Multiple Currency
+
+If you want to accept multiple currency, multiple merchant ID will be needed.&#x20;

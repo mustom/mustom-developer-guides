@@ -16,10 +16,6 @@ I think Mustom can run other environment as well. For instance, you can substitu
 
 
 
-## Alternative Environment
-
-To be updated...
-
 
 
 

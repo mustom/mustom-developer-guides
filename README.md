@@ -2,7 +2,7 @@
 
 Welcome to 'Mustom Delveloper Guide'!&#x20;
 
-In this page you can learn how to install Mustom, and how to configure your store.
+This guides aims to developers who use Mustom. This guide will guide you how to install mustom, how to configure environment, and how to customize your store.
 
 
 
